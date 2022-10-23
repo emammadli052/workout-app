@@ -30,7 +30,10 @@ class Workout {
     this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} on ${
       months[this.date.getMonth()]
     } ${this.date.getDate()}`;
+<<<<<<< HEAD
     console.log('Type of object ' + this.type);
+=======
+>>>>>>> 6f3e0f7b0038ae1ad54b03685d5f978e4d3d940b
   }
 
   click() {
